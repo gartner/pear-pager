@@ -22,28 +22,36 @@ Two operating modes available: &quot;Jumping&quot; and &quot;Sliding&quot; windo
   <email>richard@phpguru.org</email>
   <active>no</active>
  </lead>
- <date>2009-04-21</date>
- <time>22:49:27</time>
+ <contributor>
+  <name>Ryusuke SEKIYAMA</name>
+  <user>rsk</user>
+  <email>rsky0711@gmail.com</email>
+  <active>yes</active>
+ </contributor>
+ <date>2013-03-28</date>
+ <time>23:30:00</time>
  <version>
-  <release>2.4.9</release>
+  <release>2.4.9beta1</release>
   <api>2.4.9</api>
  </version>
  <stability>
-  <release>stable</release>
+  <release>beta</release>
   <api>stable</api>
  </stability>
  <license uri="http://www.debian.org/misc/bsd.license">BSD</license>
  <notes>
-
- </notes>
+- fork from https://github.com/pear/Pager [Ryusuke SEKIYAMA]
+- fix installation with composer [Ryusuke SEKIYAMA]
+- no longer supports PHP 4.x [Ryusuke SEKIYAMA]
+</notes>
  <contents>
   <dir name="/">
    <file name="Pager.php" role="php" />
-   <file baseinstalldir="Pager" name="Common.php" role="php" />
-   <file baseinstalldir="Pager" name="HtmlWidgets.php" role="php" />
-   <file baseinstalldir="Pager" name="Jumping.php" role="php" />
-   <file baseinstalldir="Pager" name="Pager_savebc.php" role="php" />
-   <file baseinstalldir="Pager" name="Sliding.php" role="php" />
+   <file name="Pager/Common.php" role="php" />
+   <file name="Pager/HtmlWidgets.php" role="php" />
+   <file name="Pager/Jumping.php" role="php" />
+   <file name="Pager/Pager.php" role="php" />
+   <file name="Pager/Sliding.php" role="php" />
    <dir baseinstalldir="Pager" name="examples">
     <file name="example.php" role="doc" />
     <file name="Pager_Wrapper.php" role="doc" />
@@ -76,7 +84,7 @@ Two operating modes available: &quot;Jumping&quot; and &quot;Sliding&quot; windo
  <dependencies>
   <required>
    <php>
-    <min>4.0.0</min>
+    <min>5.0.0</min>
    </php>
    <pearinstaller>
     <min>1.4.0b1</min>
@@ -84,24 +92,23 @@ Two operating modes available: &quot;Jumping&quot; and &quot;Sliding&quot; windo
   </required>
  </dependencies>
  <phprelease>
-  <filelist>
-   <install as="Pager.php" name="Pager_savebc.php" />
-  </filelist>
  </phprelease>
  <changelog>
   <release>
    <version>
-    <release>2.4.9</release>
+    <release>2.4.9beta1</release>
     <api>2.4.9</api>
    </version>
    <stability>
-    <release>stable</release>
+    <release>beta</release>
     <api>stable</api>
    </stability>
    <date>2009-04-21</date>
    <license uri="http://www.debian.org/misc/bsd.license">BSD</license>
    <notes>
-
+- fork from https://github.com/pear/Pager [Ryusuke SEKIYAMA]
+- fix installation with composer [Ryusuke SEKIYAMA]
+- no longer supports PHP 4.x [Ryusuke SEKIYAMA]
    </notes>
   </release>
   <release>
