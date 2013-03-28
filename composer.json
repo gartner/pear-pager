@@ -1,0 +1,19 @@
+{
+    "name": "rsky/pear-Pager",
+    "description": "Fork of https://github.com/pear/Pager",
+    "homepage": "https://github.com/rsky/Pager",
+    "license": "BSD",
+    "autoload": {
+        "classmap": ["Pager.php", "Pager/"]
+    },
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0",
+        "pear-pear/PEAR": ">=1.9.4"
+    }
+}
