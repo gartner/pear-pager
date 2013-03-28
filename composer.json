@@ -6,6 +6,7 @@
     "autoload": {
         "classmap": ["Pager.php", "Pager/"]
     },
+    "include-path": ["/"],
     "repositories": [
         {
             "type": "pear",
