@@ -28,10 +28,10 @@ Two operating modes available: &quot;Jumping&quot; and &quot;Sliding&quot; windo
   <email>rsky0711@gmail.com</email>
   <active>yes</active>
  </contributor>
- <date>2013-03-28</date>
- <time>23:30:00</time>
+ <date>2013-03-31</date>
+ <time>00:45:00</time>
  <version>
-  <release>2.4.9beta1</release>
+  <release>2.4.9beta2</release>
   <api>2.4.9</api>
  </version>
  <stability>
@@ -96,14 +96,14 @@ Two operating modes available: &quot;Jumping&quot; and &quot;Sliding&quot; windo
  <changelog>
   <release>
    <version>
-    <release>2.4.9beta1</release>
+    <release>2.4.9beta2</release>
     <api>2.4.9</api>
    </version>
    <stability>
     <release>beta</release>
     <api>stable</api>
    </stability>
-   <date>2009-04-21</date>
+   <date>2013-03-31</date>
    <license uri="http://www.debian.org/misc/bsd.license">BSD</license>
    <notes>
 - fork from https://github.com/pear/Pager [Ryusuke SEKIYAMA]
