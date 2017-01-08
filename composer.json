@@ -3,6 +3,9 @@
     "description": "Fork of https://github.com/pear/Pager",
     "homepage": "https://github.com/rsky/pear-pager",
     "license": "BSD-3-Clause",
+    "replace": {
+        "pear-pear.php.net/Pager" : "2.*"
+    },
     "autoload": {
         "classmap": ["Pager.php", "Pager/"]
     },
@@ -17,6 +20,6 @@
         ]
     },
     "require": {
-        "php": ">=5.0.0"
+        "php": ">=5.6.0"
     }
 }
